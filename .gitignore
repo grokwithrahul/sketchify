@@ -1,4 +1,6 @@
-*.idea/
-*venv/
-*test_images/
- 
+.idea/
+venv/
+test_images/
+sketchify/Gaussian Filtering.py
+build/lib/sketchify/Gaussian Filtering.py
+sketchify.egg-info/*
