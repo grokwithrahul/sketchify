@@ -1,7 +1,7 @@
 import numpy as np
 from PIL import  Image
 import cv2
-folder_path = "face-2.jpg"
+folder_path = "test_images/face-2.jpg"
 def convolve2d(image, kernel):
     """
     This function which takes an image and a kernel and returns the convolution of them.
@@ -64,9 +64,9 @@ def normal_sketch(path):
     return output
 
 sketchdeep = normal_sketch(folder_path)
-cv2.imwrite('sketchdeep.png', sketchdeep)
+cv2.imwrite('test_images/sketchdeep.png', sketchdeep)
 print("hellko")
-arshdeep_og = cv2.imread('arshdeep singh.jpg')
+arshdeep_og = cv2.imread('test_images/arshdeep singh.jpg')
 arshdeep_bw = cv2.cvtColor(arshdeep_og, cv2.COLOR_BGR2GRAY)
 arshdeep = GaussianBlurImage(arshdeep_bw, 5)
-cv2.imwrite('arshdeep_filtered.png', arshdeep)
+cv2.imwrite('test_images/arshdeep_filtered.png', arshdeep)
