@@ -12,9 +12,7 @@ sketchify depends on `opencv-contrib-python`.
 ## Usage
 
     from sketchify import sketch
-    import cv2
-    img = sketch.normalsketch(‘path/to/image.extension’)
-    cv2.imsave(‘path.png’, img)
+    img = sketch.normalsketch(‘path/to/image.extension’, 'path/to/save/image')
 
 ## Examples
 Go to tests/test_images for more examples.
