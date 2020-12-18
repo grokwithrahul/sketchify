@@ -6,18 +6,18 @@ Installation
 ------------
     pip install sketchify
 
-####Installation notes
+#### Installation notes
 sketchify depends on `opencv-contrib-python`.
 
-##Usage
+## Usage
 
     from sketchify import sketch
     import cv2
     img = sketch.normalsketch(‘path/to/image.extension’)
     cv2.imsave(‘path.png’, img)
 
-##Examples
-Look at tests/test.py for further usage.
+## Examples
+Go to tests/test_images for more examples.
 
 Obama Original|Obama Sketchified
 :-------------------------------------------------------:|:--------------------------------------------------------------:
@@ -25,4 +25,4 @@ Obama Original|Obama Sketchified
 
 Colloseum Original|Colloseum Sketchified
 :-----------------------------------------------------------:|:------------------------------------------------------------------:
-![COlloseum Original](tests/test_images/original/image2.jpg)| ![Colloseum SKetchified](tests/test_images/sketchified/image2.png)
+![Colloseum Original](tests/test_images/original/image2.jpg)| ![Colloseum SKetchified](tests/test_images/sketchified/image2.png)
