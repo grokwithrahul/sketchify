@@ -1,5 +1,6 @@
 .idea/
 venv/
+sketchify/__pycache__/*
 Gaussian Filtering.py
 build/lib/sketchify/Gaussian Filtering.py
 sketchify.egg-info/*
