@@ -2,7 +2,8 @@
 
 A simple sketching software to convert an image to a realistic sketch!
 
-##Installation
+Installation
+------------
     pip install sketchify
 
 ####Installation notes
