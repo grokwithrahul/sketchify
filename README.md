@@ -19,8 +19,8 @@ Go to tests/test_images for more examples.
 
 Obama Original|Obama Sketchified
 :-------------------------------------------------------:|:--------------------------------------------------------------:
-![Obama Original](tests/test_images/original/image1.jpg) |  ![Obama Sketchified](tests/test_images/sketchified/image1.png)
+![Obama Original](tests/test_images/original/normalsketch/image1.jpg) |  ![Obama Sketchified](tests/test_images/sketchified/normalsketch/image1.png)
 
 Colloseum Original|Colloseum Sketchified
 :-----------------------------------------------------------:|:------------------------------------------------------------------:
-![Colloseum Original](tests/test_images/original/image2.jpg)| ![Colloseum SKetchified](tests/test_images/sketchified/image2.png)
+![Colloseum Original](tests/test_images/original/normalsketch/image2.jpg)| ![Colloseum SKetchified](tests/test_images/sketchified/normalsketch/image2.png)

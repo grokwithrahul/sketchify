@@ -5,7 +5,7 @@ with open("README.md", "r") as readme_file:
     readme = readme_file.read()
 
 setup(name='sketchify',
-      version='0.0.6',
+      version='0.0.7',
       description='A simple sketching package which converts images into drawings.',
       long_description=open("README.md").read(),
       long_description_content_type='text/markdown',
