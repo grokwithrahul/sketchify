@@ -1,0 +1,6 @@
+site_name: Sketchify
+nav:
+  - Home: index.md
+  - 'pop.md'
+
+theme: readthedocs
