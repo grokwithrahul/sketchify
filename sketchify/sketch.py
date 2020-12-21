@@ -1,7 +1,7 @@
 import cv2
 
 
-def dreamsketch(path):
+def dreamsketch(path):  
     original_img = cv2.imread(path)
     gray_img = cv2.cvtColor(original_img, cv2.COLOR_BGR2GRAY)
     gray_inverse = 255 - gray_img
