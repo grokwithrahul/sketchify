@@ -1,7 +1,7 @@
 import cv2
 
 
-def dreamsketch(path):
+def dreamsketch(path):  
     original_img = cv2.imread(path)
     gray_img = cv2.cvtColor(original_img, cv2.COLOR_BGR2GRAY)
     gray_inverse = 255 - gray_img
@@ -24,7 +24,7 @@ def normalsketch(impath, savepath, savename, scale=10):
     blurred_img = cv2.GaussianBlur(gray_inverse, (51, 51), sigmaX=sigma, sigmaY=sigma)
     blurred_inverse = 255 - blurred_img
     output = cv2.divide(gray_img, blurred_inverse, scale=256.0)
-    cv2.imwrite(f'{savepath}/{savename}+.png', output)
+    cv2.imwrite(f'{savepath}/{savename}.png', output)
 
 
 def pop(impath, savepath, savename):
